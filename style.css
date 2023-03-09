@@ -1,7 +1,10 @@
+body{
+    background-color: rgb(245, 229, 166);
+}
 .head{
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
-    color: darkblue;
+    color: rgb(0, 0, 139);
     background-color: lightgreen;
     font-style: oblique;
     font-weight: bold;
@@ -12,7 +15,7 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     color: black;
-    background-color: lightcyan;
+    background-color: rgb(100, 226, 226);
     font-style: oblique;
     font-weight: 900;
     text-align: center;
@@ -25,34 +28,35 @@
     margin: 4px;
     text-indent: 2px;
     padding-left: 70px;
+    text-align: center;
 }
 .pdf{
     align-content: center;
     padding-left: 15%;
     padding-right: 14%;
     margin: 3px 2% 5px 5px; 
-    background-color: rgb(71, 190, 245);
+    /* background-color: rgb(71, 190, 245); */
 }
 .button {
-    border: none;
-    color: rgb(228, 59, 59);
     padding: 2px 3px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-    transition-duration: 0.4s;
+    transition-duration: 0.5s;
     cursor: pointer;
   }
   
   .button1 {
-    background-color: white; 
-    color: black; 
+    background-color: #000000; 
+    color: rgb(255, 255, 255); 
     border: 2px solid hsl(229, 56%, 45%);
+    font-weight: 900;
   }
   
   .button1:hover {
-    background-color: #4CAF50;
-    color: burlywood;
+    background-color: burlywood;
+    color: red;
+    border: 2px solid #00ff00;
   }
