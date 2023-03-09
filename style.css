@@ -3,7 +3,7 @@ body{
 }
 .head{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
+    font-size: 30px;
     color: rgb(0, 0, 139);
     background-color: lightgreen;
     font-style: oblique;
@@ -13,7 +13,7 @@ body{
 }
 .des{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 28px;
     color: black;
     background-color: rgb(100, 226, 226);
     font-style: oblique;
